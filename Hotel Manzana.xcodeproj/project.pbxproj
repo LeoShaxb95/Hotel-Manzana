@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FA7F7ACE2772371A00F59710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ACD2772371A00F59710 /* AppDelegate.swift */; };
 		FA7F7AD02772371A00F59710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ACF2772371A00F59710 /* SceneDelegate.swift */; };
-		FA7F7AD22772371A00F59710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7AD12772371A00F59710 /* ViewController.swift */; };
 		FA7F7AD52772371A00F59710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7AD32772371A00F59710 /* Main.storyboard */; };
 		FA7F7AD72772371F00F59710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7AD62772371F00F59710 /* Assets.xcassets */; };
 		FA7F7ADA2772371F00F59710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7AD82772371F00F59710 /* LaunchScreen.storyboard */; };
+		FA7F7AE227723BD300F59710 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7AE127723BD300F59710 /* AddRegistrationTableViewController.swift */; };
+		FA7F7AE427723C0C00F59710 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7AE327723C0C00F59710 /* Registration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA7F7ACA2772371A00F59710 /* Hotel Manzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Manzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7F7ACD2772371A00F59710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7F7ACF2772371A00F59710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA7F7AD12772371A00F59710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA7F7AD42772371A00F59710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA7F7AD62772371F00F59710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7F7AD92772371F00F59710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7F7ADB2772371F00F59710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7F7AE127723BD300F59710 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		FA7F7AE327723C0C00F59710 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				FA7F7ACD2772371A00F59710 /* AppDelegate.swift */,
 				FA7F7ACF2772371A00F59710 /* SceneDelegate.swift */,
-				FA7F7AD12772371A00F59710 /* ViewController.swift */,
 				FA7F7AD32772371A00F59710 /* Main.storyboard */,
+				FA7F7AE127723BD300F59710 /* AddRegistrationTableViewController.swift */,
+				FA7F7AE327723C0C00F59710 /* Registration.swift */,
 				FA7F7AD62772371F00F59710 /* Assets.xcassets */,
 				FA7F7AD82772371F00F59710 /* LaunchScreen.storyboard */,
 				FA7F7ADB2772371F00F59710 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7F7AD22772371A00F59710 /* ViewController.swift in Sources */,
+				FA7F7AE427723C0C00F59710 /* Registration.swift in Sources */,
+				FA7F7AE227723BD300F59710 /* AddRegistrationTableViewController.swift in Sources */,
 				FA7F7ACE2772371A00F59710 /* AppDelegate.swift in Sources */,
 				FA7F7AD02772371A00F59710 /* SceneDelegate.swift in Sources */,
 			);
