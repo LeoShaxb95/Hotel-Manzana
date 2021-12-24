@@ -13,8 +13,6 @@ class AddRegistrationTableViewController: UITableViewController {
     @IBOutlet var lastNameTextField: UITextField!
     @IBOutlet var emailTextField: UITextField!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -28,7 +26,5 @@ class AddRegistrationTableViewController: UITableViewController {
         print("firstName: \(firstName)")
         print("lastName: \(lastName)")
         print("email: \(email)")
-        
     }
-
 }
